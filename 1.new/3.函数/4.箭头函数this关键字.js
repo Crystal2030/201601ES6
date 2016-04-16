@@ -1,6 +1,7 @@
 /**
  * Created by crystal on 4/15/16.
- * 箭头函数：this只跟定义函数决定的，es5里面的this是跟运行环境有关
+ * 箭头函数：this关键字是函数定义时候决定的
+ * 函数运行时候的上下文而不是函数定义时候的上下文
  */
 function func(){
    /* setTimeout(function(){
