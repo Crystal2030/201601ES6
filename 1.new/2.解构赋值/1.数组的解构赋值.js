@@ -15,7 +15,7 @@ let [a, [b1], c] = arr;
 let [, [, x]] = arr;
 
 //...拓展运算符, ...other不能放在中间
-let [e, ,d,...other] = arr3;
+let [e, ,d, ...other] = arr3;
 console.log(e,d,other);//1 3 [4, 5]
 
 console.log(a, b1, c);//1 2.1 3

@@ -6,7 +6,7 @@
 function func(){
    /* setTimeout(function(){
         debugger;
-        console.log(this.id);
+        console.log(this.id);//this是window
     })*/
     setTimeout(() => {
         console.log(this.id);
